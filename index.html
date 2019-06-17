@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Weather app</title>
+</head>
+
+<body>
+    <div class="wheather-app">
+        <!-- Wheather icon -->
+        <div class="Wheather-icon">
+            <canvas id="icon" width="128" height="128"></canvas>
+        </div>
+
+        <!-- App title -->
+        <div class="title">
+            <h3>Wheather App</h3>
+        </div>
+
+        <!-- Wheather details -->
+        <table class="details">
+            <thead>
+                <tr>
+                    <th>Props</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>TimeZone</th>
+                    <th id="timeZone"></th>
+                </tr>
+                <tr>
+                    <th>Summary</th>
+                    <th id="summary"></th>
+                </tr>
+                <tr>
+                    <th>Temperature</th>
+                    <th id="temperature"></th>
+                </tr>
+                <tr>
+                    <th>Pressure</th>
+                    <th id="pressure"></th>
+                </tr>
+                <tr>
+                    <th>WindSpeed</th>
+                    <th id="windSpeed"></th>
+                </tr>
+                <tr>
+                    <th>Visibility</th>
+                    <th id="visibility"></th>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Write -->
+        <div class="writes">
+            developed by <a href="https://www.facebook.com/Master.M.Morsy" target="_blank">MasterMorsy</a>
+        </div>
+    </div>
+    <!-- scripts -->
+    <script src="./skycons.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

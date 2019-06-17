@@ -1,0 +1,60 @@
+/* Global style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: sans-serif;
+    align-items: center;
+    background: #6441A5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* App style */
+
+.wheather-app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* title */
+.title {
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    color: #2a0845;
+    padding: 20px 40px;
+    margin-bottom: 50px;
+}
+
+/* table */
+.details {
+    width: 50%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+/* writes */
+.writes {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.writes a {
+    color: yellow;
+}
